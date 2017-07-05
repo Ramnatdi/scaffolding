@@ -3,19 +3,19 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.26430.14
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TestApi", "WebApplication1\TestApi.csproj", "{79C2D15F-A512-497B-BC53-0E4A2FCE2BC3}"
-EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infrastructure", "Infrastructure", "{436216A8-1F30-4161-9DD4-B7F2F0692FFF}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Database", "Database\Database.csproj", "{B9D4A439-2C39-4F07-BF47-7289FF597EFA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Database", "Database\Database.csproj", "{B9D4A439-2C39-4F07-BF47-7289FF597EFA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Models", "Models\Models.csproj", "{3E9E92D5-FF2E-49E5-9F98-0DBD36E21935}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Models", "Models\Models.csproj", "{3E9E92D5-FF2E-49E5-9F98-0DBD36E21935}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Logic", "Logic\Logic.csproj", "{CF30489E-D15C-4F02-A771-47C90C2C8629}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Logic", "Logic\Logic.csproj", "{CF30489E-D15C-4F02-A771-47C90C2C8629}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Logic.Tests", "Logic.Tests\Logic.Tests.csproj", "{A103915E-75BF-42EE-B54A-DA24699AA182}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Logic.Tests", "Logic.Tests\Logic.Tests.csproj", "{A103915E-75BF-42EE-B54A-DA24699AA182}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Repository", "Repository\Repository.csproj", "{D2D14568-4C04-4C84-94BB-62F8F15635AF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Repository", "Repository\Repository.csproj", "{D2D14568-4C04-4C84-94BB-62F8F15635AF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestApi", "TestApi\TestApi.csproj", "{0BAF4E6B-2506-4D1F-BE30-B31D16CD683D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -23,10 +23,6 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{79C2D15F-A512-497B-BC53-0E4A2FCE2BC3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{79C2D15F-A512-497B-BC53-0E4A2FCE2BC3}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{79C2D15F-A512-497B-BC53-0E4A2FCE2BC3}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{79C2D15F-A512-497B-BC53-0E4A2FCE2BC3}.Release|Any CPU.Build.0 = Release|Any CPU
 		{B9D4A439-2C39-4F07-BF47-7289FF597EFA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{B9D4A439-2C39-4F07-BF47-7289FF597EFA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B9D4A439-2C39-4F07-BF47-7289FF597EFA}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -47,6 +43,10 @@ Global
 		{D2D14568-4C04-4C84-94BB-62F8F15635AF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D2D14568-4C04-4C84-94BB-62F8F15635AF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D2D14568-4C04-4C84-94BB-62F8F15635AF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0BAF4E6B-2506-4D1F-BE30-B31D16CD683D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0BAF4E6B-2506-4D1F-BE30-B31D16CD683D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0BAF4E6B-2506-4D1F-BE30-B31D16CD683D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0BAF4E6B-2506-4D1F-BE30-B31D16CD683D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
